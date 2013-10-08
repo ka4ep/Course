@@ -80,7 +80,7 @@ namespace XO
             SetViewport(0,0,79,24);
             Visual.CellWidth = 1;
             SetGridGlyphs('-', '|', '+', ' ');
-            SetPlayerGlyphs('#', 'X', 'O');
+            SetPlayerGlyphs('·', 'X', 'O');
             SetColors(ConsoleColor.DarkGreen, ConsoleColor.White, ConsoleColor.DarkYellow, ConsoleColor.Green, ConsoleColor.Yellow);
             // setup game defauts
             Player.DefinePlayers("Player1",PlayerType.Human, "Player2", PlayerType.Human);
